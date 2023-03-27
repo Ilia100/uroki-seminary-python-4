@@ -21,4 +21,6 @@ for i in range(num2):
     set2.add(input())
 
 union_sets=set1.intersection(set2)
-print("Числа которые встречаются в обоих наборах: ", union_sets)
+union_sort=list(union_sets)
+union_sort.sort()
+print("Числа которые встречаются в обоих наборах: ", union_sort)
